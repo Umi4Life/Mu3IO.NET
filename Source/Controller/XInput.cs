@@ -77,7 +77,7 @@ public class XInput : IController
         if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_DPAD_LEFT) > 0)
             LeftGameButtonsFlag |= 0x01;
 
-        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_DPAD_UP) > 0)
+        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_DPAD_DOWN) > 0)
             LeftGameButtonsFlag |= 0x02;
 
         if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_DPAD_RIGHT) > 0)
@@ -86,16 +86,16 @@ public class XInput : IController
         if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_X) > 0)
             RightGameButtonsFlag |= 0x01;
 
-        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_Y) > 0)
+        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_A) > 0)
             RightGameButtonsFlag |= 0x02;
 
         if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_B) > 0)
             RightGameButtonsFlag |= 0x04;
 
-        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_BACK) > 0)
+        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_DPAD_UP) > 0)
             LeftGameButtonsFlag |= 0x10;
 
-        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_START) > 0)
+        if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_Y) > 0)
             RightGameButtonsFlag |= 0x10;
 
         if ((buttonsFlag & (ushort)XINPUT_GAMEPAD_BUTTON_FLAGS.XINPUT_GAMEPAD_LEFT_SHOULDER) > 0)
