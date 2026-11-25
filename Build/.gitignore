@@ -1,3 +1,5 @@
 *
 
 !.gitignore
+!/Native/
+!/Native/mu3io.dll
